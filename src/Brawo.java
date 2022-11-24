@@ -5,7 +5,7 @@ public class Brawo {
         System.out.println("Wpisz swoje imię!");
         Scanner scanner=new Scanner(System.in);
         String name=scanner.nextLine();
-        for (int i=1; i<=5; i++){
+        for (int i=1; i<=name.length(); i++){
             System.out.println("Brawo "+name);
         }
     }
